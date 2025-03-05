@@ -32,7 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="1440" alt="Screenshot 2025-03-03 at 6 06 06 PM" src="https://github.com/user-attachments/assets/e415ad5d-2d8c-4097-aeb5-bfeab6a3c227" />
 </p>
 <p>
-First begin by creating your VMs. One will be our client and the next will be our Domain Controller. We will then connect the DNS of the Domain Controller to our Client-1. 
+First begin by creating your VMs in Microsoft Azure. After the Windows 10 VM, we will call this Client-1. We will refer to the other VM as "DC-1" or Domain Controller.  
 </p>
 <br />
 
