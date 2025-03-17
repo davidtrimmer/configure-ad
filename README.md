@@ -140,6 +140,25 @@ First, create a Resource Group in Microsoft Azure and name it "Active-Directory-
   <img width="1" alt="Screenshot 2025-03-16 at 7 46 45 PM" src="https://github.com/user-attachments/assets/6b7b49c6-4ec4-411c-ad60-5295a26ea30a" />
 <img width="957" alt="Screenshot 2025-03-16 at 7 47 45 PM" src="https://github.com/user-attachments/assets/3861bb78-088d-423d-9f9c-16109549b0f1" />
 <img width="1284" alt="Screenshot 2025-03-16 at 7 50 25 PM" src="https://github.com/user-attachments/assets/9a42c25d-23f4-46d8-97bc-0b4b40f97dfa" />
-
-
 </p>
+<br/>
+<p>
+  Now that we have created our users. We can begin observing how we can use Active Directory in a real-world setting. Here we will deal with Account Lockouts. Log in to dc-1. Randomly pick a user that you generated. Attempt to log in with it 10 times with a bad password. We will then configure a Group Policy to lock out after 5 attempts. Once it locks out, go into your dc-1 and unlock the account in ADUC. You will see the last screenshot in the user's account. 
+</p>
+<p>
+  <img width="754" alt="Screenshot 2025-03-16 at 8 10 14 PM" src="https://github.com/user-attachments/assets/e7e7e73f-2430-4e24-868e-75a8dc51a413" />
+  <img width="397" alt="Screenshot 2025-03-16 at 8 10 25 PM" src="https://github.com/user-attachments/assets/097f5cfb-ed2e-4230-8fcf-834267602dcc" />
+  <img width="250" alt="Screenshot 2025-03-16 at 8 11 55 PM" src="https://github.com/user-attachments/assets/fc40eebc-b396-4cfb-b608-d13e16b408e9" />
+<img width="783" alt="Screenshot 2025-03-16 at 8 13 52 PM" src="https://github.com/user-attachments/assets/12750884-20e1-49e9-a471-a69f0de85e55" />
+<img width="372" alt="Screenshot 2025-03-16 at 8 22 40 PM" src="https://github.com/user-attachments/assets/d6216d8a-ad58-4b16-a4a3-a5323a0122c0" />
+</p>
+<br/>
+<p>
+  Lastly, we will practice enabling and disabling accounts. In ADUC in dc-1. you can right click on a user's account, scroll down and click "disable account". You can do the same to enable the account.
+</p>
+<p>
+  <img width="516" alt="Screenshot 2025-03-16 at 8 33 08 PM" src="https://github.com/user-attachments/assets/4fd88aca-0966-404b-a79c-8977c207e553" />
+</p>
+<br/>
+<p>Congrats! We have finished the lab! :)</p>
+
